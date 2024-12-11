@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Penilaian Produk</title>
+  <link rel="stylesheet" href="css/isi_review.css" />
+</head>
+<body>
+  <div class="isi-review">
+    <div class="div">
+
+      <!-- Header -->
+      <header class="header">
+        <img src="img/header.png" alt="Header" class="header-image" />
+      </header>
+
+      <!-- Back Arrow Section -->
+      <div class="div-wrapper">
+        <div class="group-2">
+            <div class="text-wrapper-4">Ulasan</div>
+            <div class="arrow-wrapper">
+                <!-- Make Back Arrow Clickable to Return to tombol_pesanan.html -->
+                <img class="arrow" src="img/arrow 6.png" onclick="goToRatingPage()" />
+            </div>
+        </div>
+    </div>
+
+      <!-- Footer -->
+      <!-- <div class="group">
+        <img class="untitled" src="img/Group 275.png" />
+      </div> -->
+
+      <div class="group-44">
+        <div class="overlap-47">
+          <div class="group-45">
+            <div class="overlap-group-5">
+              <div class="home-about-us-what-w">
+                Home<br />FAQ<br />Investor Relations<br />Jobs<br />About Us<br />Help Centre
+              </div>
+              <div class="navigation">NAVIGATION</div>
+              <p class="general-info-privacy">
+                Privacy Policy<br />Terms of Service<br />Cookie Preferences<br />Corporate Information
+              </p>
+              <div class="text-wrapper-65">LEGAL</div>
+              <div class="support-apcom-com">support@hm.com<br />+66 2399 1145</div>
+              <div class="text-wrapper-66">TALK TO US</div>
+              <div class="TALK-TO-US">FOLLOW US</div>
+              <div class="social">
+                <div class="twitter-icon">
+                  <img class="twitter" src="https://c.animaapp.com/sknOlwe9/img/twitter@2x.png" />
+                </div>
+                <div class="linkedin-icon">
+                  <img class="group-46" src="https://c.animaapp.com/sknOlwe9/img/group-14@2x.png" />
+                </div>
+                <div class="facebook-icon">
+                  <img class="shape" src="https://c.animaapp.com/sknOlwe9/img/shape@2x.png" />
+                </div>
+              </div>
+              <p class="element-APCOM-all-ri">© 2024 NPD. All Rights Reserved.</p>
+            </div>
+          </div>
+          <img class="untitled" src="https://c.animaapp.com/sknOlwe9/img/untitled-1-01-2@2x.png" />
+        </div>
+      </div>
+
+      <!-- Product Information and Review Form -->
+      <div class="overlap">
+        <img class="rectangle" src="img/Hoodie.png" />
+        <div class="text-wrapper">Fit Hoodie</div>
+        <p class="fit-hoodie-dengan">
+          Fit Hoodie dengan spesifikasi:<br />Size: Allsize<br />Panjang 63 cm, Lebar 50 cm, Panjang lengan 59 cm<br />Bahan:
+          Polyester<br />Kondisi: Baru (2x dipakai)
+        </p>
+        <div class="text-wrapper-3">Ulasan Produk</div>
+        <div class="text-wrapper-2">Rp50.000</div>
+
+        <div class="kotak-review">
+          <div class="review-section">
+            <div class="review-item">
+              <label for="quality">Kualitas barang:</label>
+              <input type="text" id="quality" placeholder="sesuai harapan" class="review-input">
+            </div>
+            <div class="review-item">
+              <label for="response">Kecepatan balasan penjual:</label>
+              <input type="text" id="response" placeholder="sangat responsif" class="review-input">
+            </div>
+            <div class="review-item">
+              <label for="price">Pemberian harga setelah negosiasi:</label>
+              <input type="text" id="price" placeholder="sesuai harapan" class="review-input">
+            </div>
+            <label for="upload">Silakan unggah bukti barang (foto/video):</label>
+            <!-- <div class="upload-container">
+              <label for="file-upload" class="upload-icon">&#8682;</label>
+              <input type="file" id="file-upload" accept="image/*,video/*" class="file-input" onchange="displayFileName()">
+            </div> -->
+            <!-- <div class="upload-container">
+              <label for="file-upload" class="upload-icon">&#8682;</label>
+              <input type="file" id="file-upload" accept="image/*,video/*" class="file-input" onchange="displayFileName()">
+              <span id="file-name" class="file-name">Pilih file...</span> 
+            </div> -->
+
+            <div class="upload-container">
+              <label for="file-upload" class="upload-icon">&#8682;</label>
+              <input type="file" id="file-upload" accept="image/*,video/*" class="file-input" onchange="displayFileName()">
+              <span id="file-name" class="file-name">Pilih file...</span>
+              <!-- Add this image tag for the preview -->
+              <img id="image-preview" class="image-preview" src="" alt="Preview" style="display:none; max-width: 200px; margin-top: 20px;">
+            </div>
+            
+            
+            <!-- <button class="submit-button" onclick="submitReview()">Selesai</button> -->
+          </div>
+
+          <!-- <button class="submit-button" onclick="submitReview()">Selesai</button> -->
+
+          <div id="notification" class="notification">
+            <p><span class="check-icon">&#10004;</span> Berhasil Mengirim<br>Penilaian dan Ulasan</p>
+          </div>
+        </div>
+        
+        <button class="submit-button" onclick="submitReview()">Selesai</button>
+
+      </div>
+    </div>
+  </div>
+
+ 
+  <!-- Link to JavaScript file -->
+  <script src="js/isi_review.js">
+     // Tangkap parameter query string
+const urlParams = new URLSearchParams(window.location.search);
+const productId = urlParams.get('product_id');
+const orderId = urlParams.get('order_id');
+
+// Perbarui detail produk
+document.querySelector('.text-wrapper').textContent = `Produk ID: ${productId}`;
+document.querySelector('.text-wrapper-4').textContent = `Ulasan untuk Pesanan #${orderId}`;
+
+// Fungsi navigasi balik ke rating
+function goToRatingPage() {
+    window.location.href = `isi_rating.html?product_id=${productId}&order_id=${orderId}`;
+}
+  </script>
+</body>
+</html>

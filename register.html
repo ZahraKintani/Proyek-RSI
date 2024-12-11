@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPD Regist</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="background">
+        <div class="content">
+            <h1>Selamat Datang di NPD!</h1>
+            <div class="isiform">
+                <form action="register.php" method="POST">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="Nama" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="Email" required>
+                    
+                    <label for="katasandi">Kata Sandi:</label>
+                    <input type="password" id="katasandi" name="KataSandi" required>
+                    
+                    <label for="provinsi">Provinsi:</label>
+                    <input type="text" id="provinsi" name="provinsi" placeholder="Masukkan provinsi" required>
+                    
+                    <label for="kabupaten_kota">Kabupaten/Kota:</label>
+                    <input type="text" id="kabupaten_kota" name="kabupaten_kota" placeholder="Masukkan kabupaten/kota" required>
+                    
+                    <label for="RT">RT:</label>
+                    <input type="text" id="RT" name="RT" placeholder="Masukkan RT" required>
+                    
+                    <label for="RW">RW:</label>
+                    <input type="text" id="RW" name="RW" placeholder="Masukkan RW" required>
+                    
+                    <label for="Alamat">Alamat Lengkap:</label>
+                    <textarea id="alamat" name="Alamat" rows="3" required></textarea>
+                    
+                    <label for="nomortelepon">Nomor Telepon:</label>
+                    <input type="text" id="nomortelepon" name="NomorTelepon" required>
+                    
+                    <button class="tombolregist" type="submit">Register</button>
+                </form>
+                <div class="login-link">
+                    <span>Anda telah memiliki akun? <a href="login.html">Login</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

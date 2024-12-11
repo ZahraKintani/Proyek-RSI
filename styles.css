@@ -1,0 +1,1426 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    width: 200px;
+    margin-right: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.search-bar input:focus {
+    border-color: #4CAF50;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-btn, .chat-btn {
+    margin-left: 20px;
+    padding: 12px 25px;
+    background-color: #ffffff;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.upload-btn:hover, .chat-btn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.chat-btn i {
+    font-size: 20px;
+}
+
+/* Hamburger Icon */
+.hamburger {
+    font-size: 30px;
+    display: none; /* Hidden on desktop */
+    cursor: pointer;
+    z-index: 9999;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .header-actions {
+        flex-direction: column;
+    }
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #2C3E50;
+    color: white;
+    transition: left 0.3s ease;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #34495E;
+}
+
+.sidebar ul li a i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    width: 250px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-img {
+    width: 100%;
+    height: 180px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures image covers the area */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.product-img:hover {
+    transform: scale(1.05);
+}
+
+
+.product-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
+.price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+
+.negotiate-btn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+.negotiate-btn:hover {
+    background-color: #388E3C;
+}
+
+/* Footer */
+.footer {
+    background-color: hsl(144, 49%, 44%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+    }
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .header-actions {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* Gaya umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #28a745; /* Hijau */
+    color: white;
+}
+
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    padding: 8px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.upload-btn, .chat-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.upload-btn:hover, .chat-btn:hover {
+    background-color: #218838;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    transition: left 0.3s ease;
+    z-index: 9999;
+    padding-top: 60px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+/* Konten Utama */
+.main-content {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+
+.product-card .price {
+    color: green;
+    font-weight: bold;
+}
+
+.product-card .negotiate-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card .negotiate-btn:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Animasi untuk Sidebar */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+}
+
+/* Gaya umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 20px;
+    background-color: #28a745; /* Hijau */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan saat sticky */
+    transition: box-shadow 0.3s ease;
+    background-image: url('img/header.png'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Membuat gambar mengisi seluruh area header */
+    background-position: center; /* Menyelaraskan gambar ke tengah */
+    background-repeat: no-repeat; /* Tidak mengulang gambar */
+}
+
+.header.sticky {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    padding: 8px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.upload-btn, .chat-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: px;
+}
+
+.upload-btn:hover, .chat-btn:hover {
+    background-color: #218838;
+}
+
+/* Sidebar */
+.sidebar {
+    position: absolute;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    transition: left 0.3s ease;
+    z-index: 100000;
+    padding-top: 60px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+/* Konten Utama */
+.main-content {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.product-list {
+    display: grid;
+    gap: 0px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+
+.product-card .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-card .negotiate-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card .negotiate-btn:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+.footer {
+    background-color: hwb(128 23% 43%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1000; /* Membuat footer berada di atas konten lainnya */
+}
+
+/* Animasi untuk Sidebar */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+}
+
+/* Global Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Sidebar Styling */
+#sidebar {
+    width: 250px;
+    position: absolute;
+    left: -250px; /* Sidebar tersembunyi awalnya */
+    top: 0;
+    bottom: 0;
+    background-color: #2C6B3F; /* Hijau elegan */
+    color: #fff;
+    transition: left 0.3s ease; /* Animasi untuk sidebar */
+    padding-top: 50px;
+    z-index: 10002;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+#sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#sidebar ul li a:hover {
+    background-color: #1e5c33; /* Efek hover */
+    color: #ffeb3b; /* Highlight dengan warna kuning */
+}
+
+/* Ikon Menu (menggunakan FontAwesome) */
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+/* Button Close Sidebar */
+#sidebar-close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Menu Toggle Button (Hamburger) */
+#menu-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1000; /* Pastikan berada di atas sidebar */
+    color: #2C6B3F;
+    transition: color 0.3s;
+}
+
+#menu-toggle:hover {
+    color: #1e5c33; /* Efek hover pada hamburger */
+}
+
+/* Konten Utama (main content) */
+.main-content {
+    margin-left: 0;
+    transition: margin-left 0.3s;
+}
+
+/* Untuk menggeser konten utama saat sidebar terbuka */
+.sidebar-open .main-content {
+    margin-left: 250px; /* Menggeser konten utama ke kanan */
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-name, .product-price {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.negotiate-btn {
+    background-color: #2C6B3F;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.negotiate-btn:hover {
+    background-color: #1e5c33;
+}
+
+/* Global Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Sidebar Styling dengan Gradasi Hijau Transparan */
+#sidebar {
+    width: 250px;
+    position: fixed;
+    left: -250px; /* Sidebar tersembunyi awalnya */
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(44, 107, 63, 0.9), rgba(44, 107, 63, 0.5)); /* Gradasi hijau transparan */
+    color: #fff;
+    transition: left 0.3s ease; /* Animasi untuk sidebar */
+    padding-top: 50px;
+    z-index: 1002;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1); /* Sedikit bayangan untuk menambah dimensi */
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+#sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#sidebar ul li a:hover {
+    background-color: #1e5c33; /* Efek hover */
+    color: #ffeb3b; /* Highlight dengan warna kuning */
+}
+
+/* Ikon Menu (menggunakan FontAwesome) */
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+/* Button Close Sidebar */
+#sidebar-close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Menu Toggle Button (Hamburger) */
+#menu-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1000; /* Pastikan berada di atas sidebar */
+    color: #2C6B3F;
+    transition: color 0.3s;
+}
+
+#menu-toggle:hover {
+    color: #1e5c33; /* Efek hover pada hamburger */
+}
+
+/* Konten Utama (main content) */
+.main-content {
+    margin-left: 0;
+    transition: margin-left 0.3s;
+    flex:1;
+}
+
+/* Untuk menggeser konten utama saat sidebar terbuka */
+.sidebar-open .main-content {
+    margin-left: 250px; /* Menggeser konten utama ke kanan */
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-name, .product-price {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.negotiate-btn {
+    background-color: #2C6B3F;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.negotiate-btn:hover {
+    background-color: #1e5c33;
+}
+
+/* Profile page styles */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-container form {
+    width: 100%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container form input, .profile-container form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.profile-container form button {
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-container form button:hover {
+    background-color: #218838;
+}
+
+.profile-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    margin-right: 20px;
+}
+
+.btn-chat, .btn-checkout, .negotiate-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    width: 100%; /* Makes buttons take up the full width of the card */
+    transition: background-color 0.3s ease;
+}
+
+.btn-chat {
+    background-color: #3498db;
+    color: white;
+}
+
+.btn-checkout {
+    background-color: #e67e22;
+    color: white;
+}
+
+.negotiate-btn {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.btn-chat:hover, .btn-checkout:hover, .negotiate-btn:hover {
+    opacity: 0.8;
+}
+
+.btn-upload, .btn-upload-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-upload:hover, .btn-upload-submit:hover {
+    background-color: #45a049;
+}
+
+.btn-upload-submit {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.profile-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    margin-right: 20px;
+}
+
+.btn-upload, .btn-upload-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-upload:hover, .btn-upload-submit:hover {
+    background-color: #45a049;
+}
+
+.btn-upload-submit {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Form Reset Password Styling */
+.reset-password-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Form Profile Styling */
+.profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-details {
+    margin-left: 20px;
+}
+
+.profile-details p {
+    font-size: 16px;
+}
+
+/* Gaya untuk form dan halaman upload */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/BG-otp.png'); /* Ganti dengan URL gambar latar belakang */
+    background-size: cover; /* Gambar akan menutupi seluruh halaman */
+    background-position: center; /* Posisi gambar di tengah */
+    background-repeat: no-repeat; /* Gambar tidak akan diulang */
+    background-attachment: fixed; /* Efek parallax */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Mengatur konten supaya terdistribusi secara vertikal */
+    color: hsl(0, 0%, 0%); /* Setel warna teks */
+    padding-bottom: 60px;
+}
+
+.header-1 {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.text h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.isiform {
+    margin: 10px 0;
+}
+
+.isiform label {
+    font-weight: bold;
+}
+
+.isiform input, .isiform textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tombolkirim {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tombolkirim:hover {
+    background-color: #45a049;
+}
+
+.product-card {
+       background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Memastikan card selalu memiliki tinggi penuh */
+}
+
+
+
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Tombol Aksi (Edit dan Delete) */
+.product-actions {
+    display: flex;
+    justify-content: space-between; /* Tombol sejajar kiri dan kanan */
+    padding: 15px;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+}
+
+.product-actions a {
+    padding: 10px 15px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #45a049;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #e53935;
+}
+
+/* Notifikasi mengambang */
+.notification {
+    position: fixed; /* Posisi tetap */
+    top: 50px; /* Jarak dari atas */
+    left: 50%; /* Posisi di tengah secara horizontal */
+    transform: translateX(-50%); /* Pindahkan ke kiri untuk benar-benar di tengah */
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 9999; /* Pastikan notifikasi berada di atas konten lainnya */
+    opacity: 0;
+    animation: fadeInOut 5s forwards; /* Animasi muncul dan hilang */
+}
+
+/* Gaya untuk berbagai jenis pesan */
+.notification.success {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.notification.error {
+    background-color: #f44336;
+    color: white;
+}
+
+.notification.info {
+    background-color: #2196F3;
+    color: white;
+}
+
+/* Animasi untuk efek muncul dan hilang */
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        top: 20px;
+    }
+    10% {
+        opacity: 1;
+        top: 20px;
+    }
+    90% {
+        opacity: 1;
+        top: 20px;
+    }
+    100% {
+        opacity: 0;
+        top: 20px;
+    }
+}
+
+.seller-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.seller-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.main-content {
+    margin-left: 0;
+    transition: margin-left 0.3s;
+}
+
+/* Untuk menggeser konten utama saat sidebar terbuka */
+.sidebar-open .main-content {
+    margin-left: 250px; /* Menggeser konten utama ke kanan */
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 15px;
+    display: flex;
+    flex-direction: column; /* Membuat elemen di dalam card diatur secara vertikal */
+    justify-content: space-between; /* Memberi jarak yang rata antara elemen */
+    height: 580px; /* Menjaga card tetap tinggi dan proporsional */
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-name, .product-price {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Tombol-tombol */
+.negotiate-btn,
+.btn-checkout,
+.btn-chat {
+    display: block;
+    margin-top: 10px; /* Memberikan jarak antar tombol */
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%; /* Membuat tombol mengambil lebar penuh */
+    transition: background-color 0.3s ease;
+}
+
+/* Tombol Negosiasi */
+.negotiate-btn {
+    background-color: #2C6B3F;
+    color: #fff;
+}
+
+.negotiate-btn:hover {
+    background-color: #1e5c33;
+}
+
+/* Tombol Checkout */
+.btn-checkout {
+    background-color: #e67e22;
+    color: white;
+}
+
+.btn-checkout:hover {
+    background-color: #d35400;
+}
+
+/* Tombol Chat */
+.btn-chat {
+    background-color: #3498db;
+    color: white;
+}
+
+.btn-chat:hover {
+    background-color: #2980b9;
+}
+
+.main-content-nego {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.nego-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.nego-form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.nego-form input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: border 0.3s;
+}
+
+.nego-form input:focus {
+    border: 1px solid #16a085;
+    outline: none;
+}
+
+.nego-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #16a085;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nego-form button:hover {
+    background-color: #1abc9c;
+}
+
+/* Notifikasi Pop-up */
+.notification-box {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.notification-box.show {
+    opacity: 1;
+}
+
+
+
+
+.kotak-rating {
+    display: flex;
+    justify-content: center; /* Untuk menempatkan konten di tengah */
+    align-items: center; /* Untuk menempatkan konten secara vertikal di tengah */
+    margin: 20px 0; /* Tambahkan margin atas dan bawah */
+    border: 1px solid #ccc; /* Tambahkan border jika diinginkan */
+    padding: 20px; /* Tambahkan padding di dalam box */
+    border-radius: 10px; /* Tambahkan sudut melengkung */
+    background-color: #f9f9f9; /* Tambahkan warna latar belakang */
+}
+
+
+
+.star-rating {
+	white-space: nowrap;
+}
+.star-rating [type="radio"] {
+	appearance: none;
+}
+.star-rating i {
+	font-size: 1.2em;
+	transition: 0.3s;
+}
+
+.star-rating label:is(:hover, :has(~ :hover)) i {
+	transform: scale(1.35);
+	color: #fffdba;
+	animation: jump 0.5s calc(0.3s + (var(--i) - 1) * 0.15s) alternate infinite;
+}
+.star-rating label:has(~ :checked) i {
+	color: #faec1b;
+	text-shadow: 0 0 2px #ffffff, 0 0 10px #ffee58;
+}
+
+@keyframes jump {
+	0%,
+	50% {
+		transform: translatey(0) scale(1.35);
+	}
+	100% {
+		transform: translatey(-15%) scale(1.35);
+	}
+}

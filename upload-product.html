@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Produk</title>
+</head>
+<body>
+    <h1>Upload Produk Baru</h1>
+    <form action="upload-product.php" method="POST" enctype="multipart/form-data">
+        <label for="product-name">Nama Produk</label><br>
+        <input type="text" id="product-name" name="product-name" required><br><br>
+        
+        <label for="product-description">Deskripsi Produk</label><br>
+        <textarea id="product-description" name="product-description" required></textarea><br><br>
+
+        <label for="product-price">Harga Produk</label><br>
+        <input type="number" id="product-price" name="product-price" required><br><br>
+
+        <label for="product-image">Gambar Produk</label><br>
+        <input type="file" id="product-image" name="product-image" required><br><br>
+
+        <button type="submit">Upload Produk</button>
+    </form>
+</body>
+</html>

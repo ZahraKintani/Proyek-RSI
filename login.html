@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPD Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="background">
+        <div class="text">
+            <h1>Selamat Datang!</h1>
+        </div>
+    </div>
+
+    <div class="isiform">
+        <form action="login.php" method="POST" id="loginForm">
+            <label for="Email">Email:</label>
+            <input type="Email" id="Email" name="Email" required>
+
+            <label for="KataSandi">Kata Sandi:</label>
+            <input type="password" id="KataSandi" name="KataSandi" required>
+
+            <button type="submit" class="tombollogin">Login</button>
+        </form>
+
+        <div class="login-link">
+            <span>Tidak memiliki akun? <a href="register.html">Register</a></span>
+        </div>
+    </div>
+
+    <!-- Modal untuk Menampilkan Pesan Error -->
+    <div class="error-modal" id="errorModal">
+        <div class="error-message">
+            <h2>Oops! Email atau Kata Sandi Salah</h2>
+            <p>Silakan periksa kembali email atau kata sandi yang Anda masukkan.</p>
+            <button onclick="closeErrorModal()">Coba Lagi</button>
+        </div>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>
