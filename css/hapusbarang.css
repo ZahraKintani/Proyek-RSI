@@ -1,0 +1,75 @@
+.background {
+    width: 105vw;
+    height: 105vh; 
+    position: relative;
+    background-size: contain;
+    background-image: url('../img/BG-otp.png');
+    background-size: cover;
+  }
+  
+  .text h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 49px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .text h2 {
+    position: absolute;
+    top: 50.5%;
+    left: 49.8%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+  }
+  
+  .iconsone {
+    position: relative;
+    background-image: url('../img/social-media-icons.png');
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 80%;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+    width: 8%;
+    padding: 8px;
+    overflow: visible;
+  }
+
+  .iconstwo {
+    position: relative;
+    background-image: url('../img/icon-park-solid_check-one.png');
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 18.5%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    padding: 55px;
+    overflow: visible;
+  }
+  
+  .tombolnext {
+    position: relative;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8%;
+  padding: 8px;
+  background-color: #2c8576;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  }
+  
+  

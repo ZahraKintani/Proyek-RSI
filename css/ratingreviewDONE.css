@@ -1,0 +1,132 @@
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Latar belakang putih */
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Mengatur konten di dalam container agar sejajar secara vertikal */
+    width: 100%;
+    height: 100%;
+}
+
+/* Content Section */
+.content {
+    text-align: center;
+    background-color: #ffffff; /* Konten dengan latar putih */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 450px; /* Max width untuk responsivitas */
+}
+
+/* Main Text Section */
+.text h1 {
+    font-size: 32px;
+    color: #087780;  /* Warna merah terang */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.text h2 {
+    font-size: 18px;
+    color: #89a5a7;
+    margin-top: 10px;
+}
+
+/* Icon Section */
+.icon-container {
+    margin-top: 30px;
+}
+
+.icon-warning {
+    font-size: 80px; /* Ukuran ikon peringatan */
+    color: #aed48b; /* Warna merah terang */
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.button-container {
+    margin-top: 35px;
+}
+
+.tombollogin {
+    padding: 12px 35px;
+    font-size: 18px;
+    background-color: #087780;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tombollogin:hover {
+    background-color: #aed48b;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 20px;
+    color: #888;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #aed48b;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Animations for Elements */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.icon-warning {
+    animation: pulse 1.5s infinite; /* Animasi ikon peringatan */
+}
+
+.tombolback{
+    width: 33px;
+    height: 33px;
+    background-image: url('../img/Group 384.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    left: 17px;
+}

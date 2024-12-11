@@ -1,0 +1,161 @@
+/* Menghapus margin dan padding bawaan pada body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-1 {
+    width: 100%;
+    background-image: url('../img/header.png');
+    height: 117px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.background {
+    width: 98.05vw;
+    height: 98vh;
+    position: relative;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/BG upload barang.png');
+    background-size: cover;
+}
+
+.text h1 {
+    position: absolute;
+    top: 0%;
+    left: 6%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text h2 {
+    position: absolute;
+    top: 8%;
+    left: 6.2%;
+    color: black;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.text h3 {
+    position: absolute;
+    top: 35.9%;
+    left: 45.6%;
+    color: black;
+    font-size: 11px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.form-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8.7%;
+    padding-top: 2%;
+}
+
+/* Tempat pratinjau file */
+#preview-container {
+    position: absolute;
+    top: 21%; /* Menempatkan di tengah vertikal kotak upload */
+    left: 51%; /* Menempatkan di tengah horizontal kotak upload */
+    transform: translate(-50%, -50%); /* Memastikan posisi tengah sempurna */
+    z-index: 10; /* Memastikan pratinjau di atas elemen lain */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pratinjau gambar */
+#preview-container img, 
+#preview-container iframe {
+    max-width: 170px; /* Sesuaikan dengan ukuran kotak */
+    max-height: 170px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Kotak unggah */
+.upload-box {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #ccc;
+    border-radius: 15px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 5;
+}
+
+.upload-box::before {
+    content: "";
+    background-image: url('../img/Upload-PNG-Pic.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+.isiform {
+    margin-bottom: 12px;
+    margin-left: -100px;
+    width: 70%;
+}
+
+.isiform label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.isiform input, .isiform textarea {
+    width: 300%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.tombolkirim {
+    width: 200%;
+    padding: 6px;
+    background-color: #2c8576;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: -85px;
+}
+
+.tombolback {
+    width: 33px;
+    height: 33px;
+    background-image: url('../img/Group 384.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    left: 17px;
+}

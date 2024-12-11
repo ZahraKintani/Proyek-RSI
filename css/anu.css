@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+    height: 1500px; /* Cukup tinggi untuk scroll */
+}
+
+.static-box {
+    position: static; /* Ini default */
+    background-color: lightgray;
+}
+
+.relative-box {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: lightblue;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    background-color: lightgreen;
+}
+
+.fixed-box {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    background-color: lightcoral;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 0;
+    background-color: lightyellow;
+    padding: 33px;
+}
+
+.background {
+    width: 105vw;
+    height: 105vh; 
+    position: relative;
+    background-size: contain;
+    background-image: url('../img/WIN_20230916_19_24_18_Pro.jpg');
+    background-size: cover;
+  }

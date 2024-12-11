@@ -1,0 +1,1035 @@
+.home-page-kebuka {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home-page-kebuka .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 3326px;
+  position: relative;
+}
+
+.home-page-kebuka .ellipse {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 19px;
+  left: 1651px;
+  background-color: #d9d9d9;
+  border-radius: 22.5px;
+}
+
+.home-page-kebuka .shopping-cart {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 4282px;
+  left: 1260px;
+}
+
+.home-page-kebuka .group {
+  position: absolute;
+  width: 320px;
+  height: 311px;
+  top: 250px;
+  left: 40px;
+}
+
+.home-page-kebuka .overlap-group {
+  position: relative;
+  width: 310px;
+  height: 311px;
+  background-color: #e8e8e8;
+  border-radius: 25px;
+}
+
+.home-page-kebuka .overlap {
+  position: absolute;
+  width: 261px;
+  height: 29px;
+  top: 27px;
+  left: 27px;
+  border-radius: 30px;
+}
+
+.home-page-kebuka .rectangle {
+  position: absolute;
+  width: 261px;
+  height: 29px;
+  top: 0;
+  left: 0;
+  background-color: #608fa2;
+  border-radius: 30px;
+  border: 3px solid;
+  border-color: #608fa3;
+}
+
+.home-page-kebuka .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 86px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.72px;
+  line-height: normal;
+}
+
+.home-page-kebuka .div-wrapper {
+  position: absolute;
+  width: 261px;
+  height: 29px;
+  top: 82px;
+  left: 27px;
+  background-color: #608fa2;
+  border-radius: 30px;
+  border: 3px solid;
+  border-color: #608fa3;
+}
+
+.home-page-kebuka .text-wrapper-2 {
+  position: absolute;
+  top: -3px;
+  left: 86px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.72px;
+  line-height: normal;
+}
+
+.home-page-kebuka .overlap-2 {
+  position: absolute;
+  width: 261px;
+  height: 30px;
+  top: 137px;
+  left: 27px;
+}
+
+.home-page-kebuka .text-wrapper-3 {
+  position: absolute;
+  top: 1px;
+  left: 89px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.72px;
+  line-height: normal;
+}
+
+.home-page-kebuka .overlap-3 {
+  position: absolute;
+  width: 261px;
+  height: 29px;
+  top: 192px;
+  left: 27px;
+  border-radius: 30px;
+}
+
+.home-page-kebuka .text-wrapper-4 {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.72px;
+  line-height: normal;
+}
+
+.home-page-kebuka .overlap-4 {
+  position: absolute;
+  width: 261px;
+  height: 29px;
+  top: 247px;
+  left: 27px;
+  border-radius: 30px;
+}
+
+.home-page-kebuka .text-wrapper-5 {
+  position: absolute;
+  top: 0;
+  left: 39px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.72px;
+  line-height: normal;
+}
+
+.home-page-kebuka .overlap-5 {
+  position: absolute;
+  width: 354px;
+  height: 506px;
+  top: 347px;
+  left: 926px;
+  background-image: url(./img/rectangle-9-7.svg);
+  background-size: 100% 100%;
+}
+
+.home-page-kebuka .overlap-6 {
+  position: absolute;
+  width: 344px;
+  height: 433px;
+  top: 5px;
+  left: 5px;
+}
+
+.home-page-kebuka .overlap-7 {
+  position: absolute;
+  width: 344px;
+  height: 433px;
+  top: 0;
+  left: 0;
+}
+
+.home-page-kebuka .img {
+  position: absolute;
+  width: 344px;
+  height: 386px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.home-page-kebuka .group-wrapper {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  top: 376px;
+  left: 268px;
+}
+
+.home-page-kebuka .shopping-cart-wrapper {
+  position: relative;
+  height: 57px;
+  background-color: #07161d;
+  border-radius: 28.5px;
+}
+
+.home-page-kebuka .shopping-cart-2 {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 15px;
+  left: 14px;
+}
+
+.home-page-kebuka .text-wrapper-6 {
+  position: absolute;
+  top: 395px;
+  left: 19px;
+  font-family: "Merriweather Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.54px;
+  line-height: normal;
+}
+
+.home-page-kebuka .overlap-wrapper {
+  position: absolute;
+  width: 92px;
+  height: 35px;
+  top: 451px;
+  left: 24px;
+}
+
+.home-page-kebuka .overlap-group-2 {
+  position: relative;
+  width: 90px;
+  height: 35px;
+  background-color: #06161c;
+  border-radius: 9px;
+}
+
+.home-page-kebuka .text-wrapper-7 {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0.39px;
+  line-height: normal;
+}
+
+.home-page-kebuka .group-2 {
+  position: absolute;
+  width: 126px;
+  height: 35px;
+  top: 449px;
+  left: 204px;
+}
+
+.home-page-kebuka .overlap-group-wrapper {
+  width: 128px;
+  height: 35px;
+}
+
+.home-page-kebuka .overlap-group-3 {
+  position: relative;
+  width: 126px;
+  height: 35px;
+  background-color: #06161c;
+  border-radius: 9px;
+}
+
+.home-page-kebuka .text-wrapper-8 {
+  position: absolute;
+  top: 5px;
+  left: 11px;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0.60px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-kebuka .overlap-8 {
+  position: absolute;
+  width: 356px;
+  height: 506px;
+  top: 977px;
+  left: 454px;
+}
+
+.home-page-kebuka .men-card {
+  position: absolute;
+  width: 356px;
+  height: 506px;
+  top: 0;
+  left: 0;
+}
+
+.home-page-kebuka .overlap-9 {
+  position: relative;
+  width: 354px;
+  height: 506px;
+  background-image: url(./img/rectangle-9-5.svg);
+  background-size: 100% 100%;
+}
+
+.home-page-kebuka .rectangle-2 {
+  position: absolute;
+  width: 344px;
+  height: 386px;
+  top: 5px;
+  left: 5px;
+  object-fit: cover;
+}
+
+.home-page-kebuka .text-wrapper-9 {
+  position: absolute;
+  top: 401px;
+  left: 24px;
+  font-family: "Merriweather Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.54px;
+  line-height: normal;
+}
+
+.home-page-kebuka .group-3 {
+  position: absolute;
+  width: 306px;
+  height: 105px;
+  top: 371px;
+  left: 24px;
+}
+
+.home-page-kebuka .group-4 {
+  position: absolute;
+  width: 92px;
+  height: 35px;
+  top: 70px;
+  left: 0;
+}
+
+.home-page-kebuka .group-5 {
+  position: absolute;
+  width: 128px;
+  height: 35px;
+  top: 68px;
+  left: 180px;
+}
+
+.home-page-kebuka .group-6 {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  top: 0;
+  left: 249px;
+}
+
+.home-page-kebuka .overlap-10 {
+  position: absolute;
+  width: 356px;
+  height: 506px;
+  top: 977px;
+  left: 927px;
+}
+
+.home-page-kebuka .overlap-11 {
+  position: relative;
+  width: 354px;
+  height: 506px;
+  background-image: url(./img/rectangle-9-8.svg);
+  background-size: 100% 100%;
+}
+
+.home-page-kebuka .group-7 {
+  position: absolute;
+  width: 306px;
+  height: 105px;
+  top: 375px;
+  left: 23px;
+}
+
+.home-page-kebuka .overlap-12 {
+  position: absolute;
+  width: 356px;
+  height: 506px;
+  top: 2237px;
+  left: 448px;
+}
+
+.home-page-kebuka .overlap-13 {
+  position: relative;
+  width: 354px;
+  height: 506px;
+  background-image: url(./img/rectangle-9-3.svg);
+  background-size: 100% 100%;
+}
+
+.home-page-kebuka .overlap-14 {
+  position: absolute;
+  width: 356px;
+  height: 506px;
+  top: 2237px;
+  left: 921px;
+}
+
+.home-page-kebuka .overlap-15 {
+  position: relative;
+  width: 354px;
+  height: 506px;
+  background-image: url(./img/rectangle-9.svg);
+  background-size: 100% 100%;
+}
+
+.home-page-kebuka .overlap-16 {
+  position: absolute;
+  width: 356px;
+  height: 506px;
+  top: 1607px;
+  left: 927px;
+}
+
+.home-page-kebuka .overlap-17 {
+  position: relative;
+  width: 354px;
+  height: 506px;
+  background-image: url(./img/rectangle-9-2.svg);
+  background-size: 100% 100%;
+}
+
+.home-page-kebuka .group-8 {
+  position: absolute;
+  width: 306px;
+  height: 105px;
+  top: 371px;
+  left: 23px;
+}
+
+.home-page-kebuka .overlap-18 {
+  position: absolute;
+  width: 356px;
+  height: 506px;
+  top: 1612px;
+  left: 449px;
+}
+
+.home-page-kebuka .overlap-19 {
+  position: relative;
+  width: 354px;
+  height: 506px;
+  background-image: url(./img/rectangle-9-4.svg);
+  background-size: 100% 100%;
+}
+
+.home-page-kebuka .image {
+  width: 342px;
+  height: 379px;
+  top: 7px;
+  left: 6px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page-kebuka .group-9 {
+  position: absolute;
+  width: 306px;
+  height: 105px;
+  top: 366px;
+  left: 29px;
+}
+
+.home-page-kebuka .overlap-20 {
+  position: absolute;
+  width: 604px;
+  height: 55px;
+  top: 140px;
+  left: 369px;
+}
+
+.home-page-kebuka .rectangle-3 {
+  position: absolute;
+  width: 590px;
+  height: 55px;
+  top: 0;
+  left: 14px;
+}
+
+.home-page-kebuka .rectangle-4 {
+  position: absolute;
+  width: 590px;
+  height: 55px;
+  top: 0;
+  left: 0;
+}
+
+.home-page-kebuka .image-2 {
+  width: 21px;
+  height: 21px;
+  top: 18px;
+  left: 21px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page-kebuka .text-wrapper-10 {
+  position: absolute;
+  top: 18px;
+  left: 52px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-kebuka .overlap-21 {
+  position: absolute;
+  width: 74px;
+  height: 55px;
+  top: 140px;
+  left: 1007px;
+  background-image: url(./img/rectangle-103.svg);
+  background-size: 100% 100%;
+}
+
+.home-page-kebuka .rectangle-5 {
+  position: absolute;
+  width: 60px;
+  height: 55px;
+  top: 0;
+  left: 0;
+}
+
+.home-page-kebuka .image-3 {
+  width: 21px;
+  height: 21px;
+  top: 17px;
+  left: 26px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page-kebuka .group-10 {
+  position: absolute;
+  width: 52px;
+  height: 34px;
+  top: 151px;
+  left: 25px;
+}
+
+.home-page-kebuka .line {
+  top: -3px;
+  position: absolute;
+  width: 60px;
+  height: 11px;
+  left: -4px;
+}
+
+.home-page-kebuka .line-2 {
+  top: 14px;
+  position: absolute;
+  width: 60px;
+  height: 11px;
+  left: -4px;
+}
+
+.home-page-kebuka .line-3 {
+  top: 31px;
+  position: absolute;
+  width: 60px;
+  height: 11px;
+  left: -4px;
+}
+
+.home-page-kebuka .text-wrapper-11 {
+  position: absolute;
+  width: 266px;
+  top: 254px;
+  left: 369px;
+  font-family: "Montserrat-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0.84px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-kebuka .group-11 {
+  position: absolute;
+  width: 344px;
+  height: 52px;
+  top: 2870px;
+  left: 1001px;
+}
+
+.home-page-kebuka .group-12 {
+  width: 346px;
+  height: 52px;
+}
+
+.home-page-kebuka .overlap-group-4 {
+  position: relative;
+  width: 344px;
+  height: 52px;
+  background-color: #264653;
+  border-radius: 50px;
+  top: -13px;
+}
+
+.home-page-kebuka .text-wrapper-12 {
+  position: absolute;
+  top: 15px;
+  left: 53px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0.54px;
+  line-height: normal;
+}
+
+.home-page-kebuka .group-13 {
+  position: absolute;
+  width: 303px;
+  height: 64px;
+  top: 2864px;
+  left: 90px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: 5px;
+  background-color: #608FA3;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+    width: 245px;
+    height: 52px;
+    top: 2817px;
+    left: 70px;
+    font-size: 20px;
+  }
+
+
+
+.home-page-kebuka .overlap-22 {
+  position: relative;
+  width: 301px;
+  height: 64px;
+  background-color: #608fa2;
+  border-radius: 50px;
+  border: 3px solid;
+  border-color: #608fa3;
+}
+
+.home-page-kebuka .text-wrapper-13 {
+  position: absolute;
+  top: 14px;
+  left: 38px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.72px;
+  line-height: normal;
+}
+
+.home-page-kebuka .group-14 {
+  position: absolute;
+  width: 1440px;
+  height: 341px;
+  top: 2985px;
+  left: 0;
+}
+
+.home-page-kebuka .overlap-23 {
+  position: relative;
+  width: 1456px;
+  height: 341px;
+}
+
+.home-page-kebuka .group-15 {
+  position: absolute;
+  width: 1456px;
+  height: 341px;
+  top: 0;
+  left: 0;
+}
+
+.home-page-kebuka .overlap-group-5 {
+  position: relative;
+  width: 1440px;
+  height: 341px;
+  background-color: #087780;
+}
+
+.home-page-kebuka .home-about-us-what-w {
+  position: absolute;
+  width: 118px;
+  top: 99px;
+  left: 403px;
+  opacity: 0.8;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.home-page-kebuka .navigation {
+  position: absolute;
+  width: 81px;
+  top: 69px;
+  left: 412px;
+  font-family: "Proxima Nova-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--white);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-kebuka .general-info-privacy {
+  position: absolute;
+  width: 116px;
+  top: 98px;
+  left: 662px;
+  opacity: 0.8;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.home-page-kebuka .text-wrapper-14 {
+  position: absolute;
+  width: 41px;
+  top: 69px;
+  left: 696px;
+  font-family: "Proxima Nova-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--white);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-kebuka .support-apcom-com {
+  position: absolute;
+  width: 114px;
+  top: 113px;
+  left: 929px;
+  opacity: 0.8;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.home-page-kebuka .text-wrapper-15 {
+  position: absolute;
+  width: 74px;
+  top: 78px;
+  left: 945px;
+  font-family: "Proxima Nova-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--white);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-kebuka .TALK-TO-US {
+  position: absolute;
+  width: 75px;
+  top: 81px;
+  left: 1211px;
+  font-family: "Proxima Nova-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--white);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-kebuka .social {
+  position: absolute;
+  width: 112px;
+  height: 32px;
+  top: 117px;
+  left: 1199px;
+}
+
+.home-page-kebuka .twitter-icon {
+  position: absolute;
+  width: 30px;
+  height: 32px;
+  top: 0;
+  left: 82px;
+  border-radius: 19.5px;
+  border: 1px solid;
+  border-color: var(--white);
+}
+
+.home-page-kebuka .twitter {
+  position: absolute;
+  width: 10px;
+  height: 9px;
+  top: 10px;
+  left: 9px;
+}
+
+.home-page-kebuka .linkedin-icon {
+  position: absolute;
+  width: 30px;
+  height: 32px;
+  top: 0;
+  left: 41px;
+  border-radius: 19.5px;
+  border: 1px solid;
+  border-color: var(--white);
+}
+
+.home-page-kebuka .group-16 {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 9px;
+  left: 9px;
+}
+
+.home-page-kebuka .facebook-icon {
+  position: absolute;
+  width: 30px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  border-radius: 19.5px;
+  border: 1px solid;
+  border-color: var(--white);
+}
+
+.home-page-kebuka .shape {
+  position: absolute;
+  width: 5px;
+  height: 12px;
+  top: 9px;
+  left: 11px;
+}
+
+.home-page-kebuka .element-APCOM-all-ri {
+  position: absolute;
+  width: 242px;
+  top: 303px;
+  left: 599px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 14px;
+  white-space: nowrap;
+}
+
+.home-page-kebuka .untitled {
+  position: absolute;
+  width: 204px;
+  height: 185px;
+  top: 73px;
+  left: 77px;
+}
+
+.home-page-kebuka .group-17 {
+  position: absolute;
+  width: 69px;
+  height: 69px;
+  top: 132px;
+  left: 1305px;
+}
+
+.home-page-kebuka .communication-chat-wrapper {
+  position: relative;
+  height: 69px;
+  background-color: #aed48b;
+  border-radius: 34.5px;
+}
+
+.home-page-kebuka .communication-chat {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  top: 15px;
+  left: 16px;
+}
+
+.home-page-kebuka .overlap-24 {
+  position: absolute;
+  width: 356px;
+  height: 506px;
+  top: 347px;
+  left: 454px;
+}
+
+.home-page-kebuka .overlap-25 {
+  position: relative;
+  width: 354px;
+  height: 506px;
+  background-image: url(./img/rectangle-9-6.svg);
+  background-size: 100% 100%;
+}
+
+.home-page-kebuka .image-4 {
+  width: 343px;
+  height: 386px;
+  top: 5px;
+  left: 6px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page-kebuka .group-18 {
+  position: absolute;
+  width: 306px;
+  height: 105px;
+  top: 379px;
+  left: 24px;
+}
+
+.home-page-kebuka .header {
+  position: absolute;
+  width: 1439px;
+  height: 109px;
+  top: 0;
+  left: 1px;
+  background-color: transparent;
+  background-image: url(./img/header-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.home-page-kebuka .NPD-TEXT {
+  position: absolute;
+  width: 118px;
+  height: 55px;
+  top: 30px;
+  left: 39px;
+}
+
+
+.uploadbarang {
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: 5px;
+  background-color: #608FA3;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+    width: 245px;
+    height: 57px;
+    top: 2717px;
+    left: 70px;
+    font-size: 24px;
+  }
+
+
+.button {
+    background-color: #608FA3; /* Warna tombol */
+    color: #ffffff; /* Warna teks */
+    border: none; /* Hilangkan border */
+    border-radius: 15px; /* Radius sudut */
+    padding: 10px 20px; /* Padding tombol */
+    font-size: 16px; /* Ukuran font */
+    cursor: pointer; /* Pointer saat di-hover */
+    outline: none; /* Hilangkan outline */
+    width: 270px;
+  }
+
+  .button:focus {
+    outline: none; /* Hilangkan outline saat fokus */
+    box-shadow: none; /* Hilangkan efek bayangan */
+  }
+
+  .button:hover {
+    background-color: #517c8d; /* Slightly darker on hover */
+    transform: scale(1.02); /* Slightly enlarge on hover */
+  }
+
+  .overlap-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Space between buttons */
+    padding-top: 50px; /* Adjust this value to move buttons further down */
+  }

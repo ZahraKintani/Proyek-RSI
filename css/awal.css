@@ -1,0 +1,436 @@
+
+.background {
+  width: 105vw;
+  height: 105vh; 
+  position: relative; /* Agar teks dapat di-posisikan relatif ke div ini */
+  /* width: 100%;
+  height: 300px; */
+  background-size: contain;
+  background-image: url('../img/BG.jpg'); /* Gambar di folder 'img' */
+  background-size: cover; /* Agar gambar memenuhi seluruh area div */
+  /* background-position: center;/ /* Gambar berada di tengah */
+}
+
+.text {
+  position: absolute; /* Menggunakan posisi absolut */
+  top: 43%; /* Menempatkan teks di tengah secara vertikal */
+  left: 22%; /* Menempatkan teks di tengah secara horizontal */
+  transform: translate(-50%, -50%); /* Agar benar-benar di tengah */
+  color: black; /* Warna teks */
+  font-size: 33px; /* Ukuran teks */
+  font-weight: bold; /* Tebal teks */
+  text-align: left; /* Teks di tengah */
+}
+
+ .tombollogin {
+  top: 73%; /* Menempatkan teks di tengah secara vertikal */
+  left: 17%; /* Menempatkan teks di tengah secara horizontal */
+  transform: translate(-50%, -50%); /* Agar benar-benar di tengah */
+  position: absolute;
+  margin-top: 20px;
+  background-color: #ffffff;
+  color: #2c8576;
+  border: 2px solid #2c8576;
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 14.5px;
+  border-radius: 10px;
+  font-weight: bold;
+} 
+
+.tombolregist {
+  top: 73%; /* Menempatkan teks di tengah secara vertikal */
+  left: 9%; /* Menempatkan teks di tengah secara horizontal */
+  transform: translate(-50%, -50%); /* Agar benar-benar di tengah */
+  position: absolute;
+  margin-top: 20px;
+  background-color: #2c8576;
+  color: #ffffff;
+  border: 2px solid #2c8576;
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 14.5px;
+  border-radius: 10px;
+  font-weight: bold;
+} 
+
+ /* .btnregist {
+  position: absolute;
+    display: inline-block;
+    top: 70%; /* Menempatkan teks di tengah secara vertikal */
+    /* left: 7%; /* Menempatkan teks di tengah secara horizontal */
+    /* padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px; */
+/* } */ 
+/* 
+.btnregister {
+  position: absolute;
+    display: inline-block;
+    top: 70%;
+    left: 10%;  */
+    /* padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+} */
+
+/* .btnlogin {
+  position: absolute;
+    display: inline-block; * */
+    /* top: 70%; /* Menempatkan teks di tengah secara vertikal */
+    /* left: 5%; Menempatkan teks di tengah secara horizontal  */
+    /* padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.register {
+    background-color: #2c8576;
+    color: #ffffff;
+}
+
+.login {
+    background-color: #ffffff;
+    color: #2c8576;
+    border: 2px solid #2c8576;
+} */
+
+/* .landing-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+} */
+/* 
+ .background{
+  width: 100vw; 100% dari lebar viewport
+  height: 100vh; 100% dari tinggi viewport 
+  /*margin: 0;
+    padding: 0;
+    background-image: url('BG.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+/* } */
+/* 
+.landing-page .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+}
+
+.landing-page .overlap {
+  position: relative;
+  width: 1792px;
+  height: 1616px;
+  top: -222px;
+}
+
+.landing-page .rectangle {
+  width: 1440px;
+  height: 1024px;
+  top: 222px;
+  background-color: #f6f6fc;
+  position: absolute;
+  left: 0;
+}
+
+.landing-page .NPD-TEXT {
+  position: absolute;
+  width: 118px;
+  height: 55px;
+  top: 252px;
+  left: 59px;
+}
+
+.landing-page .vector {
+  position: absolute;
+  width: 448px;
+  height: 1024px;
+  top: 222px;
+  left: 0;
+  object-fit: cover;
+}
+
+.landing-page .group {
+  position: absolute;
+  width: 171px;
+  height: 53px;
+  top: 726px;
+  left: 260px;
+}
+
+.landing-page .overlap-group {
+  position: relative;
+  width: 169px;
+  height: 53px;
+}
+
+.landing-page .img {
+  width: 169px;
+  height: 53px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.landing-page .login {
+  position: absolute;
+  width: 52px;
+  height: 20px;
+  top: 19px;
+  left: 54px;
+}
+
+.landing-page .group-2 {
+  position: absolute;
+  width: 169px;
+  height: 53px;
+  top: 726px;
+  left: 67px;
+} */
+/* 
+.sustainable-style {
+  position: absolute;
+  width: 541px;
+  height: 217px;
+  top: 451px;
+  left: 75px;
+} */
+/* 
+.landing-page .overlap-group-wrapper {
+  position: absolute;
+  width: 1206px;
+  height: 1616px;
+  top: 0;
+  left: 586px;
+}
+
+.landing-page .div {
+  position: relative;
+  width: 823px;
+  height: 1024px;
+  top: 222px;
+  left: 31px;
+}
+
+.landing-page .rectangle-2 {
+  width: 525px;
+  height: 579px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.landing-page .rectangle-3 {
+  position: absolute;
+  width: 308px;
+  height: 640px;
+  top: 306px;
+  left: 515px;
+}
+
+.landing-page .NPD-TEXT-2 {
+  position: absolute;
+  width: 588px;
+  height: 274px;
+  top: 382px;
+  left: 189px;
+}
+
+.landing-page .rectangle-4 {
+  position: absolute;
+  width: 470px;
+  height: 314px;
+  top: 710px;
+  left: 124px;
+}
+
+.landing-page .text-wrapper {
+  position: absolute;
+  width: 489px;
+  top: 656px;
+  left: 189px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-Extra Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+} */
+
+/* coba 1 */
+/* .body {
+    background-image: url(../img/Landing Page.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.kontainer {
+    background-color: rgba(255, 255, 255, 0.9); /* Sedikit transparan */
+    /* padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+} */
+
+/* Gaya untuk logo dan teks tagline */
+/* .logo {
+    width: 100px; /* Ukuran logo */
+    /* margin-bottom: 10px;
+} */ 
+
+/* .header .tagline {
+    font-size: 16px;
+    color: #555;
+} */
+
+/* .konten h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+} */
+
+/* .tombol {
+    margin-top: 20px;
+} */
+
+/* .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.register {
+    background-color: #2c8576;
+    color: #ffffff;
+}
+
+.login {
+    background-color: #ffffff;
+    color: #2c8576;
+    border: 2px solid #2c8576;
+}
+
+.daftar:hover, .masuk:hover {
+    opacity: 0.8;
+}
+
+/* Gaya untuk penempatan judul */
+/* .opening h1 {
+    margin-left: 40px;
+} */ 
+
+
+/* COBA 2 */
+/* .body img{
+    
+}
+.opening h1{
+    margin-left: 40px;
+}  */
+
+
+/* css regist
+body {
+    background-color: rgb(197, 211, 236);
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px; 
+    margin-left: 50px;
+}
+
+.welcoming {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.beranda-title {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(9, 68, 117);
+    margin: 20px;
+}
+.welcoming img{
+    width: 600px;
+}
+
+.katakata{
+    margin-top: 10px;
+    width: 600px;
+    text-align: center;
+}
+
+.katakata h1{
+    font-size: 30px;
+    color: #1C4060;
+    letter-spacing: 6px;
+    font-weight: bold;  
+}
+
+.katakata p1{
+    font-size: 20px;
+    color: #1C4060;
+}
+
+.isiform{
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px
+}
+.isiform label {
+    font-size: 20px;
+    color: black;
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.isiform input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+.isiform button {
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4682B4;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+} */

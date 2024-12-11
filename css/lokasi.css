@@ -1,0 +1,2209 @@
+
+
+.pilih-lokasi {
+    background-color: #ffffff;
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .pilih-lokasi .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 3323px;
+    position: relative;
+  }
+  
+  .pilih-lokasi .ellipse {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 19px;
+    left: 1651px;
+    background-color: #d9d9d9;
+    border-radius: 22.5px;
+  }
+  
+  .pilih-lokasi .shopping-cart {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -17529px;
+    left: 5359px;
+  }
+  
+  .pilih-lokasi .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 2876px;
+    top: 109px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .text-wrapper {
+    position: absolute;
+    top: 2786px;
+    left: 1055px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .men-card {
+    position: absolute;
+    width: 356px;
+    height: 506px;
+    top: 241px;
+    left: 69px;
+  }
+  
+  .pilih-lokasi .overlap-group {
+    position: relative;
+    width: 354px;
+    height: 506px;
+    background-image: url(https://c.animaapp.com/sknOlwe9/img/rectangle-9-12.png);
+    background-size: 100% 100%;
+  }
+  
+  .pilih-lokasi .rectangle {
+    position: absolute;
+    width: 344px;
+    height: 386px;
+    top: 5px;
+    left: 5px;
+    object-fit: cover;
+  }
+  
+  .pilih-lokasi .text-wrapper-2 {
+    position: absolute;
+    top: 401px;
+    left: 24px;
+    font-family: "Merriweather Sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .img {
+    position: absolute;
+    width: 354px;
+    height: 506px;
+    top: 241px;
+    left: 546px;
+  }
+  
+  .pilih-lokasi .rectangle-2 {
+    position: absolute;
+    width: 344px;
+    height: 386px;
+    top: 246px;
+    left: 551px;
+    object-fit: cover;
+  }
+  
+  .pilih-lokasi .group {
+    position: absolute;
+    width: 92px;
+    height: 35px;
+    top: 692px;
+    left: 570px;
+  }
+  
+  .pilih-lokasi .div-wrapper {
+    position: relative;
+    width: 90px;
+    height: 35px;
+    background-color: #06161c;
+    border-radius: 9px;
+  }
+  
+  .pilih-lokasi .text-wrapper-3 {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.39px;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-wrapper {
+    position: absolute;
+    width: 126px;
+    height: 35px;
+    top: 690px;
+    left: 750px;
+  }
+  
+  .pilih-lokasi .overlap-group-wrapper {
+    width: 128px;
+    height: 35px;
+  }
+  
+  .pilih-lokasi .overlap-group-2 {
+    position: relative;
+    width: 126px;
+    height: 35px;
+    background-color: #06161c;
+    border-radius: 9px;
+  }
+  
+  .pilih-lokasi .text-wrapper-4 {
+    position: absolute;
+    top: 5px;
+    left: 11px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0.60px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .pilih-lokasi .text-wrapper-5 {
+    position: absolute;
+    top: 641px;
+    left: 570px;
+    font-family: "Merriweather Sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-2 {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    top: 622px;
+    left: 819px;
+  }
+  
+  .pilih-lokasi .shopping-cart-wrapper {
+    position: relative;
+    height: 57px;
+    background-color: #07161d;
+    border-radius: 28.5px;
+  }
+  
+  .pilih-lokasi .shopping-cart-2 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 15px;
+    left: 14px;
+  }
+  
+  .pilih-lokasi .group-3 {
+    position: absolute;
+    width: 306px;
+    height: 105px;
+    top: 620px;
+    left: 93px;
+  }
+  
+  .pilih-lokasi .group-4 {
+    position: absolute;
+    width: 92px;
+    height: 35px;
+    top: 70px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .overlap-wrapper {
+    position: absolute;
+    width: 128px;
+    height: 35px;
+    top: 68px;
+    left: 180px;
+  }
+  
+  .pilih-lokasi .group-5 {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    top: 0;
+    left: 249px;
+  }
+  
+  .pilih-lokasi .men-card-2 {
+    top: 1506px;
+    left: 1021px;
+    position: absolute;
+    width: 356px;
+    height: 506px;
+  }
+  
+  .pilih-lokasi .group-6 {
+    position: absolute;
+    width: 306px;
+    height: 105px;
+    top: 1885px;
+    left: 1045px;
+  }
+  
+  .pilih-lokasi .men-card-3 {
+    top: 871px;
+    left: 74px;
+    position: absolute;
+    width: 356px;
+    height: 506px;
+  }
+  
+  .pilih-lokasi .group-7 {
+    position: absolute;
+    width: 306px;
+    height: 105px;
+    top: 1242px;
+    left: 98px;
+  }
+  
+  .pilih-lokasi .men-card-4 {
+    top: 2131px;
+    left: 547px;
+    position: absolute;
+    width: 356px;
+    height: 506px;
+  }
+  
+  .pilih-lokasi .group-8 {
+    position: absolute;
+    width: 306px;
+    height: 105px;
+    top: 2502px;
+    left: 571px;
+  }
+  
+  .pilih-lokasi .men-card-5 {
+    position: absolute;
+    width: 356px;
+    height: 506px;
+    top: 871px;
+    left: 547px;
+  }
+  
+  .pilih-lokasi .group-9 {
+    position: absolute;
+    width: 305px;
+    height: 104px;
+    top: 1250px;
+    left: 571px;
+  }
+  
+  .pilih-lokasi .group-10 {
+    position: absolute;
+    width: 92px;
+    height: 35px;
+    top: 69px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .group-11 {
+    position: absolute;
+    top: 66px;
+    left: 179px;
+    width: 128px;
+    height: 35px;
+  }
+  
+  .pilih-lokasi .group-12 {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    top: 0;
+    left: 248px;
+  }
+  
+  .pilih-lokasi .men-card-6 {
+    top: 2131px;
+    left: 79px;
+    position: absolute;
+    width: 356px;
+    height: 506px;
+  }
+  
+  .pilih-lokasi .group-13 {
+    position: absolute;
+    width: 306px;
+    height: 105px;
+    top: 2506px;
+    left: 102px;
+  }
+  
+  .pilih-lokasi .men-card-7 {
+    top: 1501px;
+    left: 74px;
+    position: absolute;
+    width: 356px;
+    height: 506px;
+  }
+  
+  .pilih-lokasi .men-card-8 {
+    top: 1501px;
+    left: 547px;
+    position: absolute;
+    width: 356px;
+    height: 506px;
+  }
+  
+  .pilih-lokasi .group-14 {
+    position: absolute;
+    width: 306px;
+    height: 105px;
+    top: 1879px;
+    left: 571px;
+  }
+  
+  .pilih-lokasi .group-15 {
+    position: absolute;
+    width: 306px;
+    height: 105px;
+    top: 1872px;
+    left: 98px;
+  }
+  
+  .pilih-lokasi .men-card-9 {
+    top: 241px;
+    left: 1016px;
+    position: absolute;
+    width: 356px;
+    height: 506px;
+  }
+  
+  .pilih-lokasi .men-card-10 {
+    top: 871px;
+    left: 1011px;
+    position: absolute;
+    width: 356px;
+    height: 506px;
+  }
+  
+  .pilih-lokasi .group-16 {
+    position: absolute;
+    width: 306px;
+    height: 105px;
+    top: 1254px;
+    left: 1035px;
+  }
+  
+  .pilih-lokasi .group-17 {
+    position: absolute;
+    width: 306px;
+    height: 105px;
+    top: 626px;
+    left: 1040px;
+  }
+  
+  .pilih-lokasi .text-wrapper-6 {
+    position: absolute;
+    top: 2701px;
+    left: 21px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0.72px;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .text-wrapper-7 {
+    position: absolute;
+    width: 264px;
+    top: 140px;
+    left: 69px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0.84px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .pilih-lokasi .rectangle-3 {
+    position: absolute;
+    width: 590px;
+    height: 55px;
+    top: 30px;
+    left: 383px;
+  }
+  
+  .pilih-lokasi .rectangle-4 {
+    position: absolute;
+    width: 74px;
+    height: 55px;
+    top: 30px;
+    left: 1007px;
+  }
+  
+  .pilih-lokasi .rectangle-5 {
+    position: absolute;
+    width: 590px;
+    height: 55px;
+    top: 30px;
+    left: 369px;
+  }
+  
+  .pilih-lokasi .rectangle-6 {
+    position: absolute;
+    width: 60px;
+    height: 55px;
+    top: 30px;
+    left: 1007px;
+  }
+  
+  .pilih-lokasi .image {
+    top: 47px;
+    left: 1033px;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    object-fit: cover;
+  }
+  
+  .pilih-lokasi .image-2 {
+    top: 48px;
+    left: 390px;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    object-fit: cover;
+  }
+  
+  .pilih-lokasi .text-wrapper-8 {
+    position: absolute;
+    top: 48px;
+    left: 421px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #00000080;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .pilih-lokasi .group-18 {
+    position: absolute;
+    width: 52px;
+    height: 34px;
+    top: 41px;
+    left: 65px;
+  }
+  
+  .pilih-lokasi .line {
+    top: -3px;
+    position: absolute;
+    width: 60px;
+    height: 11px;
+    left: -4px;
+  }
+  
+  .pilih-lokasi .line-2 {
+    top: 14px;
+    position: absolute;
+    width: 60px;
+    height: 11px;
+    left: -4px;
+  }
+  
+  .pilih-lokasi .line-3 {
+    top: 31px;
+    position: absolute;
+    width: 60px;
+    height: 11px;
+    left: -4px;
+  }
+  
+  .pilih-lokasi .group-19 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 24px;
+    left: 1301px;
+  }
+  
+  .pilih-lokasi .communication-chat-wrapper {
+    position: relative;
+    height: 69px;
+    background-color: #aed48b;
+    border-radius: 34.5px;
+  }
+  
+  .pilih-lokasi .communication-chat {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    top: 15px;
+    left: 16px;
+  }
+  
+  .pilih-lokasi .group-20 {
+    position: absolute;
+    width: 344px;
+    height: 52px;
+    top: 2761px;
+    left: 1001px;
+  }
+  
+  .pilih-lokasi .group-21 {
+    width: 346px;
+    height: 52px;
+  }
+  
+  .pilih-lokasi .overlap-group-3 {
+    position: relative;
+    width: 344px;
+    height: 52px;
+    background-color: #264653;
+    border-radius: 50px;
+  }
+  
+  .pilih-lokasi .text-wrapper-9 {
+    position: absolute;
+    top: 15px;
+    left: 53px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-22 {
+    position: absolute;
+    width: 303px;
+    height: 64px;
+    top: 2755px;
+    left: 90px;
+  }
+  
+  .pilih-lokasi .overlap-2 {
+    position: relative;
+    width: 301px;
+    height: 64px;
+    background-color: #608fa2;
+    border-radius: 50px;
+    border: 3px solid;
+    border-color: #608fa3;
+  }
+  
+  .pilih-lokasi .text-wrapper-10 {
+    position: absolute;
+    top: 14px;
+    left: 38px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0.72px;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .frame {
+    position: absolute;
+    width: 1440px;
+    height: 2876px;
+    top: 0;
+    left: 0;
+    background-color: #000000ba;
+  }
+  
+  .pilih-lokasi .frame-2 {
+    /* position: relative; */
+    width: 519px;
+    height: 2974px;
+    /* top: -120px; */
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  
+  .pilih-lokasi .overlap-3 {
+    /* position: absolute; */
+    width: 553px;
+    height: 86px;
+    top: 103px;
+    left: 0;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-11 {
+    position: absolute;
+    width: 232px;
+    top: 22px;
+    left: 149px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .pilih-lokasi .overlap-4 {
+    position: absolute;
+    width: 37px;
+    height: 36px;
+    top: 27px;
+    left: 18px;
+    border-radius: 18.5px / 18px;
+  }
+  
+  .pilih-lokasi .ellipse-2 {
+    position: absolute;
+    width: 37px;
+    height: 36px;
+    top: 0;
+    left: 0;
+    background-color: #aed48b;
+    border-radius: 18.5px / 18px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .pilih-lokasi .arrow {
+    position: absolute;
+    width: 27px;
+    height: 15px;
+    top: 11px;
+    left: 5px;
+  }
+  
+  .pilih-lokasi .overlap-5 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 242px;
+    left: 28px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-12 {
+    position: absolute;
+    top: 12px;
+    left: 47px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-6 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 327px;
+    left: 28px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-13 {
+    position: absolute;
+    top: 11px;
+    left: 16px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-7 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 412px;
+    left: 28px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-14 {
+    position: absolute;
+    top: 12px;
+    left: 42px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-8 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 497px;
+    left: 28px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-15 {
+    position: absolute;
+    top: 11px;
+    left: 41px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-9 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 582px;
+    left: 28px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-16 {
+    position: absolute;
+    top: 11px;
+    left: 42px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-10 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 668px;
+    left: 28px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-17 {
+    position: absolute;
+    top: 11px;
+    left: 8px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-11 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 753px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-18 {
+    position: absolute;
+    top: 12px;
+    left: 65px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-12 {
+    position: absolute;
+    width: 226px;
+    height: 1350px;
+    top: 242px;
+    left: 276px;
+  }
+  
+  .pilih-lokasi .group-23 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 511px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .overlap-group-4 {
+    position: relative;
+    width: 220px;
+    height: 56px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-19 {
+    position: absolute;
+    top: 12px;
+    left: 26px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .rectangle-7 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 948px;
+    left: 0;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .group-24 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 176px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .text-wrapper-20 {
+    position: absolute;
+    top: 12px;
+    left: 38px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-25 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 87px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .text-wrapper-21 {
+    position: absolute;
+    top: 11px;
+    left: 62px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-26 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 255px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .text-wrapper-22 {
+    position: absolute;
+    top: 12px;
+    left: 45px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-27 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 341px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .group-28 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 682px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .text-wrapper-23 {
+    position: absolute;
+    top: 12px;
+    left: 59px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-29 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 597px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .text-wrapper-24 {
+    position: absolute;
+    top: 12px;
+    left: 43px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-30 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 771px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .text-wrapper-25 {
+    position: absolute;
+    top: 12px;
+    left: 76px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .text-wrapper-26 {
+    position: absolute;
+    top: 959px;
+    left: 62px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-31 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 1036px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .text-wrapper-27 {
+    position: absolute;
+    top: 12px;
+    left: 52px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-32 {
+    position: absolute;
+    width: 222px;
+    height: 1350px;
+    top: 0;
+    left: 2px;
+  }
+  
+  .pilih-lokasi .rectangle-8 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 1294px;
+    left: 0;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .overlap-13 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 0;
+    left: 0;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-28 {
+    position: absolute;
+    top: 12px;
+    left: 50px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-33 {
+    position: absolute;
+    width: 224px;
+    height: 130px;
+    top: 1208px;
+    left: 2px;
+  }
+  
+  .pilih-lokasi .text-wrapper-29 {
+    position: absolute;
+    top: 12px;
+    left: 51px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .text-wrapper-30 {
+    position: absolute;
+    top: 97px;
+    left: 54px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-34 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 1122px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .text-wrapper-31 {
+    position: absolute;
+    top: 12px;
+    left: 29px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-35 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 862px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .text-wrapper-32 {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-36 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 426px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .text-wrapper-33 {
+    position: absolute;
+    top: 12px;
+    left: 54px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-14 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 839px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-34 {
+    position: absolute;
+    width: 68px;
+    top: 7px;
+    left: 74px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-15 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 924px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-35 {
+    position: absolute;
+    width: 139px;
+    top: 12px;
+    left: 40px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-16 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 1364px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-36 {
+    position: absolute;
+    top: 12px;
+    left: 49px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-17 {
+    position: absolute;
+    width: 224px;
+    height: 142px;
+    top: 1450px;
+    left: 30px;
+  }
+  
+  .pilih-lokasi .rectangle-9 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 86px;
+    left: 0;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .group-37 {
+    position: absolute;
+    width: 224px;
+    height: 130px;
+    top: 0;
+    left: 0;
+  }
+  
+  .pilih-lokasi .text-wrapper-37 {
+    position: absolute;
+    top: 12px;
+    left: 66px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .text-wrapper-38 {
+    position: absolute;
+    top: 97px;
+    left: 66px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-18 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 1622px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-39 {
+    position: absolute;
+    top: 10px;
+    left: 46px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-19 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 1622px;
+    left: 278px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-40 {
+    position: absolute;
+    top: 10px;
+    left: 54px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-20 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 1708px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-41 {
+    position: absolute;
+    top: 11px;
+    left: 51px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-21 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 1706px;
+    left: 276px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-42 {
+    position: absolute;
+    top: 13px;
+    left: 29px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-22 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 1794px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .overlap-23 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 1794px;
+    left: 276px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-43 {
+    position: absolute;
+    top: 10px;
+    left: 51px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-24 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 1880px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .overlap-25 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 1882px;
+    left: 276px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .overlap-26 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 1966px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-44 {
+    position: absolute;
+    top: 11px;
+    left: 25px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-27 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 1966px;
+    left: 276px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-45 {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-28 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2050px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-46 {
+    position: absolute;
+    top: 9px;
+    left: 69px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-29 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2052px;
+    left: 276px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-47 {
+    position: absolute;
+    top: 13px;
+    left: 8px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-30 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2136px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-48 {
+    position: absolute;
+    top: 12px;
+    left: 9px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-31 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2136px;
+    left: 276px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-49 {
+    position: absolute;
+    top: 10px;
+    left: 52px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-32 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2222px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-50 {
+    position: absolute;
+    top: 10px;
+    left: 38px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-33 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2224px;
+    left: 276px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-51 {
+    position: absolute;
+    top: 9px;
+    left: 44px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-34 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2308px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-52 {
+    position: absolute;
+    width: 149px;
+    top: 12px;
+    left: 46px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-35 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2308px;
+    left: 276px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-53 {
+    position: absolute;
+    top: 11px;
+    left: 29px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-36 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2394px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-54 {
+    position: absolute;
+    width: 139px;
+    top: 10px;
+    left: 42px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-37 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2394px;
+    left: 276px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .overlap-38 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2480px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-55 {
+    position: absolute;
+    width: 174px;
+    top: 14px;
+    left: 38px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-39 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2480px;
+    left: 276px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-56 {
+    position: absolute;
+    top: 11px;
+    left: 66px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-40 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2566px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-57 {
+    position: absolute;
+    width: 139px;
+    top: 10px;
+    left: 50px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-41 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2566px;
+    left: 276px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .overlap-42 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 1104px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-58 {
+    position: absolute;
+    top: 13px;
+    left: 65px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-38 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 1013px;
+    left: 30px;
+  }
+  
+  .pilih-lokasi .group-39 {
+    width: 222px;
+    height: 56px;
+  }
+  
+  .pilih-lokasi .text-wrapper-59 {
+    position: absolute;
+    top: 12px;
+    left: 21px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-40 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 1190px;
+    left: 30px;
+  }
+  
+  .pilih-lokasi .group-41 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 1278px;
+    left: 30px;
+  }
+  
+  .pilih-lokasi .text-wrapper-60 {
+    position: absolute;
+    top: 12px;
+    left: 27px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .overlap-43 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2652px;
+    left: 30px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .overlap-44 {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    top: 2652px;
+    left: 276px;
+    background-color: #e2e8f0;
+  }
+  
+  .pilih-lokasi .text-wrapper-61 {
+    position: absolute;
+    top: 3097px;
+    left: 102px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .text-wrapper-62 {
+    position: absolute;
+    top: 3097px;
+    left: 338px;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-42 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 2852px;
+    left: 29px;
+  }
+  
+  .pilih-lokasi .overlap-45 {
+    position: relative;
+    width: 236px;
+    height: 73px;
+    top: -8px;
+    left: -8px;
+    background-color: #087780;
+    border-radius: 4.2px;
+  }
+  
+  .pilih-lokasi .text-wrapper-63 {
+    position: absolute;
+    top: 20px;
+    left: 85px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-43 {
+    position: absolute;
+    width: 222px;
+    height: 56px;
+    top: 2852px;
+    left: 279px;
+  }
+  
+  .pilih-lokasi .overlap-46 {
+    position: relative;
+    width: 228px;
+    height: 65px;
+    top: -4px;
+    left: -4px;
+    background-image: url(https://c.animaapp.com/sknOlwe9/img/rectangle-165.png);
+    background-size: 100% 100%;
+  }
+  
+  .pilih-lokasi .text-wrapper-64 {
+    position: absolute;
+    top: 16px;
+    left: 50px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #087780;
+    font-size: 26.9px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .pilih-lokasi .group-44 {
+    position: absolute;
+    width: 1440px;
+    height: 341px;
+    top: 2985px;
+    left: 0;
+  }
+  
+  .pilih-lokasi .overlap-47 {
+    position: relative;
+    width: 1456px;
+    height: 341px;
+  }
+  
+  .pilih-lokasi .group-45 {
+    position: absolute;
+    width: 1456px;
+    height: 341px;
+    top: 0;
+    left: 0;
+  }
+  
+  .pilih-lokasi .overlap-group-5 {
+    position: relative;
+    width: 1440px;
+    height: 341px;
+    background-color: #087780;
+  }
+  
+  .pilih-lokasi .home-about-us-what-w {
+    position: absolute;
+    width: 118px;
+    top: 96px;
+    left: 403px;
+    opacity: 0.8;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .pilih-lokasi .navigation {
+    position: absolute;
+    width: 81px;
+    top: 68px;
+    left: 412px;
+    font-family: "Proxima Nova-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .pilih-lokasi .general-info-privacy {
+    position: absolute;
+    width: 116px;
+    top: 97px;
+    left: 662px;
+    opacity: 0.8;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .pilih-lokasi .text-wrapper-65 {
+    position: absolute;
+    width: 41px;
+    top: 68px;
+    left: 696px;
+    font-family: "Proxima Nova-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .pilih-lokasi .support-apcom-com {
+    position: absolute;
+    width: 114px;
+    top: 112px;
+    left: 929px;
+    opacity: 0.8;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .pilih-lokasi .text-wrapper-66 {
+    position: absolute;
+    width: 74px;
+    top: 77px;
+    left: 945px;
+    font-family: "Proxima Nova-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .pilih-lokasi .TALK-TO-US {
+    position: absolute;
+    width: 75px;
+    top: 80px;
+    left: 1211px;
+    font-family: "Proxima Nova-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .pilih-lokasi .social {
+    position: absolute;
+    width: 112px;
+    height: 32px;
+    top: 114px;
+    left: 1199px;
+  }
+  
+  .pilih-lokasi .twitter-icon {
+    position: absolute;
+    width: 30px;
+    height: 32px;
+    top: 0;
+    left: 82px;
+    border-radius: 19.5px;
+    border: 1px solid;
+    border-color: var(--white);
+  }
+  
+  .pilih-lokasi .twitter {
+    position: absolute;
+    width: 10px;
+    height: 9px;
+    top: 10px;
+    left: 9px;
+  }
+  
+  .pilih-lokasi .linkedin-icon {
+    position: absolute;
+    width: 30px;
+    height: 32px;
+    top: 0;
+    left: 41px;
+    border-radius: 19.5px;
+    border: 1px solid;
+    border-color: var(--white);
+  }
+  
+  .pilih-lokasi .group-46 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 9px;
+    left: 9px;
+  }
+  
+  .pilih-lokasi .facebook-icon {
+    position: absolute;
+    width: 30px;
+    height: 32px;
+    top: 0;
+    left: 0;
+    border-radius: 19.5px;
+    border: 1px solid;
+    border-color: var(--white);
+  }
+  
+  .pilih-lokasi .shape {
+    position: absolute;
+    width: 5px;
+    height: 12px;
+    top: 9px;
+    left: 11px;
+  }
+  
+  .pilih-lokasi .element-APCOM-all-ri {
+    position: absolute;
+    width: 242px;
+    top: 302px;
+    left: 599px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 14px;
+    white-space: nowrap;
+  }
+  
+  .pilih-lokasi .untitled {
+    position: absolute;
+    width: 204px;
+    height: 185px;
+    top: 73px;
+    left: 77px;
+  }
+  
+  .pilih-lokasi .header {
+    position: absolute;
+    width: 1440px;
+    height: 109px;
+    top: 0;
+    left: 0;
+  }
+  
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    justify-content: center;
+}
+
+
+.header h1 {
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+}
+
+.content {
+    padding: 20px;
+}
+
+.location-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    row-gap: 25px; 
+    margin-bottom: 170px;
+}
+
+.location-button {
+    background-color: #f0f0f0;
+    border: 2px solid transparent;
+    padding: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.location-button:hover {
+    background-color: #e0e0e0;
+}
+
+.location-button.active {
+    border: 3px solid #087780;
+}
+
+.action-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.action-button {
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pakai-button {
+    background-color: #0d9488;
+    color: white;
+}
+
+.pakai-button:hover {
+    background-color: #0f766e;
+}
+
+.reset-button {
+    background-color: #e5e7eb;
+    color: #374151;
+}
+
+.reset-button:hover {
+    background-color: #d1d5db;
+}
